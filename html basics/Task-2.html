@@ -1,0 +1,106 @@
+<!-- Task: Build a structured schedule table with centered CSS alignment, cell borders, and hoverable <abbr title="..."> tags that display complete course titles over subject code abbreviations. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-2 Time Table</title>
+    <style>
+        .Timetable{
+            text-align: center;
+            padding:15px;
+            background-color:rgb(169, 155, 155);
+            margin: 0 auto; /*This aligns the table in the middle horizontally */
+        }
+        .Timetable th{
+            padding:15px;
+            border:1.5px solid;
+        }
+        .Timetable td{
+            border:1.5px solid;
+            padding:8px;
+        }
+        abbr{
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center"> Weekly Schedule of FA Section</h1>
+    <table class="Timetable">
+    <tr>
+        <th></th>
+        <th>10:00-11:00</th>
+        <th>11:00-12:00</th>
+        <th>12:00-01:00</th>
+        <th>01:00-02:00</th>
+        <th>02:00-03:00</th>
+        <th>03:00-04:00</th>
+        <th>04:00-05:00</th>
+        <th>05:00-06:00</th>
+    </tr>
+
+    <tr>
+        <th>Monday</th>
+        <td><abbr title="Probability and Statistics">BMAS 0108</abbr></td>
+        <td></td>
+        <td><abbr title="Database Management System Lab">BCSC 1802</abbr></td>
+        <td><abbr title="Database Management System Lab">BCSC 1802</abbr></td>
+        <td></td>
+        <td><abbr title="Introduction to frontend engineering">BCSE 0031</abbr></td>
+        <td><abbr title="Software Engineering">BCSC 0009</abbr></td>
+        <td><abbr title="English for professional purposes">BELH 0020</abbr></td>
+    </tr>
+
+    <tr>
+        <th>Tuesday</th>
+        <td><abbr title="Probability and Statistics">BMAS 0108</abbr></td>
+        <td><abbr title="Database Management System">BCSC 1003</abbr></td>
+        <td><abbr title="Introduction to frontend engineering">BCSE 0031</abbr></td>
+        <td></td>
+        <td></td>
+        <td><abbr title="Software Engineering">BCSC 0009</abbr></td>
+        <td></td>
+        <td><abbr title="English for professional purposes">BELH 0020</abbr></td>
+    </tr>
+
+    <tr>
+        <th>Wednesday</th>
+        <td><abbr title="Introduction to frontend engineering">BCSE 0031</abbr></td>
+        <td><abbr title="Data Structure and Algorithm Lab">BCSC 0811</abbr></td>
+        <td><abbr title="Data Structure and Algorithm Lab">BCSC 0811</abbr></td>
+        <td></td>
+        <td><abbr title="Data Structure and Algorithm">BCSC 1006</abbr></td>
+        <td><abbr title="Data Structure and Algorithm">BCSC 1006</abbr></td>
+        <td><abbr title="Data Structure and Algorithm">BCSC 1006</abbr></td>
+        <td><abbr title="Database Management System">BCSC 1003</abbr></td>
+    </tr>
+
+    <tr>
+        <th>Thursday</th>
+        <td><abbr title="Probability and Statistics">BMAS 0108</abbr></td>
+        <td><abbr title="Data Structure and Algorithm Lab">BCSC 0811</abbr></td>
+        <td></td>
+        <td></td>
+        <td><abbr title="Data Structure and Algorithm Lab">BCSC 0811</abbr></td>
+        <td><abbr title="Data Structure and Algorithm">BCSC 1006</abbr></td>
+        <td><abbr title="Data Structure and Algorithm">BCSC 1006</abbr></td>
+        <td><abbr title="Software Engineering">BCSC 0009</abbr></td>
+    </tr>
+
+    <tr>
+        <th>Friday</th>
+        <td><abbr title="Database Management System">BCSC 1003</abbr></td>
+        <td><abbr title="Probability and Statistics">BMAS 0108</abbr></td>
+        <td></td>
+        <td></td>
+        <td><abbr title="Introduction to frontend engineering lab">BCSE 0813</abbr></td>
+        <td><abbr title="Introduction to frontend engineering lab">BCSE 0813</abbr></td>
+        <td><abbr title="English for professional purposes">BELH 0020</abbr></td>
+        <td><abbr title="English for professional purposes">BELH 0020</abbr></td>
+    </tr>
+
+    </table>
+</body>
+</html>
